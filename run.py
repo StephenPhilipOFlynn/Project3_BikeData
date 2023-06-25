@@ -3,6 +3,7 @@
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 import gspread
 from google.oauth2.service_account import Credentials
+import numpy as np
 
 SCOPE = [
     "https://www.googleapis.com/auth/spreadsheets",
@@ -19,4 +20,4 @@ bikesharing = SHEET.worksheet('bike_dataset')
 
 data = bikesharing.get_all_values()
 
-print(data)
+
