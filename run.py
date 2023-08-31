@@ -24,6 +24,6 @@ values = bikesharing.range('P2:P32')
 number_values = [float(cell.value) for cell in values]
 sum_of_values_jan_eleven = sum(number_values)
 jan_eleven_average = sum_of_values_jan_eleven / 31
-print(f"The average for January was {jan_eleven_average}")
+print(f"The January average usage was {jan_eleven_average}")
 
 
