@@ -27,4 +27,3 @@ jan_eleven_average = sum_of_values_jan_eleven / 31
 print(f"The average for January was {jan_eleven_average}")
 
 
-
